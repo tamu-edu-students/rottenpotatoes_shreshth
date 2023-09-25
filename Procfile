@@ -1,1 +1,1 @@
-web: bundle exec rails server -p $PORT
+web: bundle lock --add-platform x86_64-linux exec rails server -p $PORT
